@@ -1,0 +1,16 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error JSONError": {
+    "fileName": "c:\\Users\\avivy\\Projects_clean\\English FST 2021\\Yonahs FST\\package.json",
+    "codeFrame": "  1 | {\n> 2 |   {\n    |   ^\n  3 |     \"name\": \"Yonahs ENG3U FST\",\n  4 |     \"description\": \"A blog about the literature of the ENG3U curriculum and the central themes of falsehood and deception present in works we studied\",\n  5 |     \"author\": \"Yonah Aviv\",",
+    "code": "ERR_PNPM_JSON_PARSE",
+    "err": {
+      "name": "JSONError",
+      "message": "Unexpected token \"{\" (0x7B) in JSON at position 4 while parsing near \"{\\n  {\\n    \\\"name\\\": \\\"Yonah...\" in c:\\Users\\avivy\\Projects_clean\\English FST 2021\\Yonahs FST\\package.json \n\n  1 | {\n> 2 |   {\n    |   ^\n  3 |     \"name\": \"Yonahs ENG3U FST\",\n  4 |     \"description\": \"A blog about the literature of the ENG3U curriculum and the central themes of falsehood and deception present in works we studied\",\n  5 |     \"author\": \"Yonah Aviv\",\n",
+      "code": "ERR_PNPM_JSON_PARSE",
+      "stack": "JSONError: Unexpected token \"{\" (0x7B) in JSON at position 4 while parsing near \"{\\n  {\\n    \\\"name\\\": \\\"Yonah...\" in c:\\Users\\avivy\\Projects_clean\\English FST 2021\\Yonahs FST\\package.json \n\n  1 | {\n> 2 |   {\n    |   ^\n  3 |     \"name\": \"Yonahs ENG3U FST\",\n  4 |     \"description\": \"A blog about the literature of the ENG3U curriculum and the central themes of falsehood and deception present in works we studied\",\n  5 |     \"author\": \"Yonah Aviv\",\n\n    at Object.parseJson [as default] (C:\\Users\\avivy\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.9.0\\node_modules\\pnpm\\dist\\pnpm.cjs:3084:27)\n    at Object.readJsonFile (C:\\Users\\avivy\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.9.0\\node_modules\\pnpm\\dist\\pnpm.cjs:39648:37)\n    at async tryReadProjectManifest (C:\\Users\\avivy\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.9.0\\node_modules\\pnpm\\dist\\pnpm.cjs:39709:32)\n    at async readProjectManifest (C:\\Users\\avivy\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.9.0\\node_modules\\pnpm\\dist\\pnpm.cjs:39694:22)\n    at async Object.readProjectManifestOnly (C:\\Users\\avivy\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.9.0\\node_modules\\pnpm\\dist\\pnpm.cjs:39702:28)\n    at async C:\\Users\\avivy\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.9.0\\node_modules\\pnpm\\dist\\pnpm.cjs:118186:26\n    at async Promise.all (index 0)\n    at async Object.default_1 [as default] (C:\\Users\\avivy\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.9.0\\node_modules\\pnpm\\dist\\pnpm.cjs:118177:20)\n    at async Timeout._onTimeout (C:\\Users\\avivy\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.9.0\\node_modules\\pnpm\\dist\\pnpm.cjs:124590:24)"
+    }
+  }
+}
