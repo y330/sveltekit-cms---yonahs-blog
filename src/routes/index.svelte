@@ -14,10 +14,13 @@
 					slug
 					date
 					excerpt
+					coverImage {
+						fileName
+						url
+					}
 				}
 			}
 		`;
-
 		const { posts } = await graphcms.request(query);
 
 		return {
@@ -32,7 +35,7 @@
 	export let posts;
 </script>
 
-<h1 class="text-4xl font-semibold mb-7 text-gray-700">Yonah's Engish FST</h1>
+<h1 class="text-4xl font-semibold mb-7 text-gray-700">GraphCMS starter blog</h1>
 <ul>
 	<li>
 		{#each posts as post}

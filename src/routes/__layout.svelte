@@ -1,10 +1,10 @@
 <script>
-	import Nav from "$lib/nav.svelte";
-	import "../app.postcss";
-</script>
+	import Nav from '$lib/nav.svelte'
+	import '../app.css'
+  </script>
 
-<Nav />
+  <Nav />
 
-<div class="container max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+  <div class="container max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
 	<slot />
-</div>
+  </div>
