@@ -35,7 +35,7 @@
 	export let posts;
 </script>
 
-<h1 class="text-4xl font-semibold mb-7 text-gray-700">GraphCMS starter blog</h1>
+<h1 class="text-4xl font-semibold mb-7 text-gray-700">Yonah's FST</h1>
 <ul>
 	<li>
 		{#each posts as post}
