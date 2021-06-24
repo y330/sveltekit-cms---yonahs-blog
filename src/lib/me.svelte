@@ -26,7 +26,7 @@
 		text-align: center;
 		font-size: 2.5em;
 		color: #555;
-		overflow: hidden;
+		display: flex;
 	}
 	.social a {
 		color: inherit;

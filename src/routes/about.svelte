@@ -1,5 +1,5 @@
 <script>
-import Me from "$lib/me.animation.svelte";
+import Me from "$lib/me.svelte";
 </script>
 
 <style>
@@ -13,9 +13,8 @@ import Me from "$lib/me.animation.svelte";
 	  <div class="max-w-md">
 		<h1 class="mb-5 text-5xl font-bold">My English FST - ENG3U</h1>
 		<p class="mb-5">Blog about what I learned in english this year, focusing on the theme of deception in dystopia in the literature we studied</p>
+		<Me/>
+
 	  </div>
-
-	  <Me/>
-
 	</div>
   </div>
