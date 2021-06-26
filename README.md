@@ -1,5 +1,5 @@
 # ENG3U Final Summitive Assignment
-###### _Yoanh Aviv_
+###### _Yonah Aviv_
 
 ## Assignment overview
 This is an open ended creative assignment, and it's purpose is to answer the following question:
