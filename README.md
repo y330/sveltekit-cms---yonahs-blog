@@ -1,8 +1,28 @@
-# create-svelte
+# ENG3U Final Summitive Assignment
+###### _Yoanh Aviv_
+
+## Assignment overview
+This is an open ended creative assignment, and it's purpose is to answer the following question:
+
+> What did I learn in Grade 11 English this Quadmester?
+
+
+
+## Description
+
+To answer this question, I coded a website in [Svelte](https://svelte.dev) using SvelteKit and tailwind.css(Daisy UI), and wrote a series of blog posts focusing on the reoccuring themes of deception and the destruction of the past in dystopian or corrupted societies. Specifically, the blog posts which were managed in GraphCMS, a content management system, cover the books _1984_ by George Orwell and _The Crucible_ by Arthur Miller, and the short stories "Harrison Bergeron" by Kurt Voggenut Jr. and "The Unknown Citizen" by W.H. Auden. Despite the effort made for all the posts to have a certian depth, the [Harrison Bergeron](https://yonahs-fst.vercel.app/post/harrison-bergeron) one is the most insightful in my opinion.
+
+The website can be viewed [here](https://yonahs-fst.vercel.app)
+
+------
+
+------
+
+## Please ignore the following (technical gibberish).
 
 Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte);
 
-## Creating a project
+### Creating a project
 
 If you're seeing this, you've probably already done this step. Congrats!
 
@@ -16,7 +36,7 @@ npm init svelte@next my-app
 
 > Note: the `@next` is temporary
 
-## Developing
+### Developing
 
 Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
 
@@ -27,7 +47,7 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+### Building
 
 Before creating a production version of your app, install an [adapter](https://kit.svelte.dev/docs#adapters) for your target environment. Then:
 
