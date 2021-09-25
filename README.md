@@ -1,4 +1,11 @@
 # ENG3U Final Summitive Assignment
+
+The website can be viewed [here](https://yonahs-fst.vercel.app)
+
+preview:
+ 
+![image](/yonahs-fst-ss.png)
+
 ###### _Yonah Aviv_
 
 ## Assignment overview
